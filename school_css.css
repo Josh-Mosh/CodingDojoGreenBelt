@@ -1,0 +1,66 @@
+body {
+	background-color: #5F4586;
+	font-family: sans-serif;
+
+}
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	height: 600px;
+	padding: 20px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+	#exams_table {
+		width: 700px;
+	}
+
+tr, td, th {
+	border: 1px solid black;
+	padding: 5px;
+}
+
+td {
+	height: 30px;
+}
+
+h2 {
+	margin: 5px;
+}
+
+p {
+	margin: 10px;
+}
+
+#add_record {
+	display: inline-block;
+	padding: 10px;
+	width: 250px;
+	border: 1px solid grey;
+}
+
+.error {
+	color: red;
+}
+
+.success {
+	color: darkgreen;
+	background-color: lightgreen;
+	border: 1px solid darkgreen;
+	display: inline-block;
+	padding: 10px;
+}
+
+input[type='submit'] {
+	vertical-align: middle;
+	background-color: #5F4586;
+	font-weight: bold;
+	color: white;
+	border-radius: 5px;
+	border-color: #FFFFFF;
+	}
